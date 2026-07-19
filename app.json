@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "PharmaApp",
-    "slug": "PharmaApp",
+    "name": "CarShow",
+    "slug": "CarShow",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "pharmaapp",
+    "scheme": "carshow",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon",
-      "bundleIdentifier": "com.anonymous.PharmaApp"
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "com.anonymous.CarShow"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.CarShow"
     },
     "web": {
       "bundler": "metro",
